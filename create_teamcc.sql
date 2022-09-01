@@ -18,15 +18,6 @@ CREATE TABLE `cc` (
   PRIMARY KEY (`team_num`,`activity_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE `image` (
-  `id` int NOT NULL,
-  `image` mediumblob,
-  `size` int DEFAULT NULL,
-  `mimetype` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-
 CREATE TABLE `state` (
   `title` varchar(255) DEFAULT NULL,
   `num` varchar(255) DEFAULT NULL
@@ -41,4 +32,7 @@ CREATE TABLE `url` (
 
 
 
-
+CREATE TABLE admin(
+	id VARCHAR(255) NOT NULL PRIMARY KEY,
+    password VARCHAR(255) NOT NULL
+);
