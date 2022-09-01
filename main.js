@@ -14,7 +14,7 @@ app.use(express.static('public'));
 var multer = require('multer');
 var storage = multer.memoryStorage();
 var upload = multer({storage: storage});
-//------------ home --------------------
+//-------------------------- admin.js  ------------------------------------
 app.post('/', function(request, response){
   var _url = request.url;
   var queryData = url.parse(_url, true).query;
@@ -26,20 +26,11 @@ app.get('/', function(request, response){
   admin.home(request,response,queryData);
 });
 
-
-app.post('/user', function(request, response){
-  user.home(request, response,  request.query.id);
+app.post('/admin_score', function(request, response){
+  admin.score(request,response);
 });
-app.get('/user', function(request, response){
-  user.home(request, response, request.query.id);
-});
-
-
-app.post('/main', function(request, response){
-  admin.main(request,response);
-});
-app.get('/main', function(request, response){
-  admin.main(request,response);
+app.get('/admin_score', function(request, response){
+  admin.score(request,response);
 });
 
 
@@ -55,11 +46,11 @@ app.post('/admin_create/create_state', function(request, response){
    admin.create_state(request,response);
 });
 
-app.post('/admin_create_main', function(request, response){
-    admin.create_main(request,response);
+app.post('/admin_main', function(request, response){
+    admin.main(request,response);
 });
-app.get('/admin_create_main', function(request, response){
-    admin.create_main(request,response);
+app.get('/admin_main', function(request, response){
+    admin.main(request,response);
 });
 
 
@@ -89,20 +80,31 @@ app.post('/url_delete', function(request, response){
    admin.url_delete(request,response);
 });
 
+
+
+
+//--------------------------- user.js --------------------------------
+
+app.post('/user', function(request, response){
+  user.main(request, response,  request.query.id);
+});
+app.get('/user', function(request, response){
+  user.main(request, response, request.query.id);
+});
+
+
+
 app.post('/user_delete', function(request, response){
    user.activity_delete(request,response,request.query.id);
 });
 
 
-app.post('/user_submit', function(request, response){
-     user.user_submit(request,response);
-});
 
-app.get('/user_main', function(request, response){
-   user.user_main(request,response);
+app.get('/user_score', function(request, response){
+   user.user_score(request,response);
 });
-app.post('/user_main', function(request, response){
-   user.user_main(request,response);
+app.post('/user_score', function(request, response){
+   user.user_score(request,response);
 });
 
 app.post('/image_upload',upload.single('userfile'),function(request, response){
@@ -112,9 +114,6 @@ app.get('/image_upload',upload.single('userfile'),function(request, response){
    user.image_upload(request,response,request.query.rand);
 });
 
-app.post('/image_insert',function(request, response){
-   user.image_insert(request,response);
-});
 
 
 app.listen(3000, function(){
