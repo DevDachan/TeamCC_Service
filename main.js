@@ -6,14 +6,32 @@ var admin = require('./lib/admin.js');
 var user = require('./lib/user.js');
 
 
+var session = require('express-session');
+
+
 var express = require('express');
 var app = express();
 app.use(express.static('public'));
 
 
+
+
 var multer = require('multer');
 var storage = multer.memoryStorage();
 var upload = multer({storage: storage});
+
+
+app.use(session({
+  secret:"handongdevsecret",
+  resave:false,
+  saveUninitialized:true,
+
+}));
+
+
+
+
+
 //-------------------------- admin.js  ------------------------------------
 app.post('/', function(request, response){
   var _url = request.url;
@@ -25,6 +43,23 @@ app.get('/', function(request, response){
   var queryData = url.parse(_url, true).query;
   admin.home(request,response,queryData);
 });
+
+
+app.post('/admin_login', function(request, response){
+  admin.login(request, response);
+})
+
+
+app.get('/admin_register',function(request, response){
+  admin.register(request, response);
+
+})
+
+app.post('/admin_register_state',function(request, response){
+  admin.register_state(request, response);
+})
+
+
 
 app.post('/admin_score', function(request, response){
   admin.score(request,response);
@@ -74,9 +109,11 @@ app.get('/initialization', function(request, response){
    admin.initialization(request,response);
 });
 app.post('/url_insert', function(request, response){
+          console.log(request.session.uid);
    admin.url_insert(request,response);
 });
 app.post('/url_delete', function(request, response){
+          console.log(request.session.uid);
    admin.url_delete(request,response);
 });
 
