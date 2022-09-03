@@ -105,6 +105,11 @@ app.get('/activity_delete', function(request, response){
 app.post('/activity_insert', function(request, response){
    admin.activity_insert(request,response);
 });
+
+app.get('/activity_image', function(request,response){
+  admin.activity_image(request,response);
+})
+
 app.get('/initialization', function(request, response){
    admin.initialization(request,response);
 });
