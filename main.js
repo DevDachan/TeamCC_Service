@@ -114,15 +114,15 @@ app.get('/initialization', function(request, response){
    admin.initialization(request,response);
 });
 app.post('/url_insert', function(request, response){
-          console.log(request.session.uid);
    admin.url_insert(request,response);
 });
 app.post('/url_delete', function(request, response){
-          console.log(request.session.uid);
    admin.url_delete(request,response);
 });
 
-
+app.post('/change_color', function(request, response){
+   admin.change_color(request,response);
+});
 
 
 //--------------------------- user.js --------------------------------

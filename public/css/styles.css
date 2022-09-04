@@ -11530,6 +11530,22 @@ header.masthead .bg-circle-4 {
 
 #tb_activityImage{
   margin:auto;
-     border: 1px solid #444444;
-    background: #dda0dd	;
+  border: 1px solid #444444;
+  background: #dda0dd	;
+}
+
+#bt_change{
+  align-items: center;
+  border:0px;
+  border-radius:20px;
+  font-family: 'Jua', sans-serif;
+  color:white;
+  background:#ee0979;
+  font-size: 20px;
+}
+
+
+#lb_ch{
+  font-family: 'Jua', sans-serif;
+  
 }
