@@ -11320,7 +11320,7 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(7rem + 50px);
   padding-bottom: 7rem;
   background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
@@ -11375,7 +11375,7 @@ header.masthead .bg-circle-4 {
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
@@ -11508,6 +11508,7 @@ header.masthead .bg-circle-4 {
   align-items: center;
   margin: 0px;
   font-family: 'Jua', sans-serif;
+  padding: 10px;
 }
 
 #td_table{
@@ -11530,8 +11531,7 @@ header.masthead .bg-circle-4 {
 
 #tb_activityImage{
   margin:auto;
-  border: 1px solid #444444;
-  background: #dda0dd	;
+  border: 0px;
 }
 
 #bt_change{
@@ -11547,5 +11547,5 @@ header.masthead .bg-circle-4 {
 
 #lb_ch{
   font-family: 'Jua', sans-serif;
-  
+
 }
