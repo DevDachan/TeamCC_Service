@@ -8,7 +8,6 @@ var user = require('./lib/user.js');
 
 var session = require('express-session');
 
-
 var express = require('express');
 var app = express();
 app.use(express.static('public'));
@@ -89,7 +88,7 @@ app.get('/admin_main', function(request, response){
 });
 
 
-app.post('/admin_update_state', function(request, response){
+app.post('/admin_update_state',upload.single('background_image'), function(request, response){
     admin.update_state(request,response);
 });
 

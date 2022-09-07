@@ -11322,7 +11322,6 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 50px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -11490,8 +11489,40 @@ header.masthead .bg-circle-4 {
   grid-column: 2;
 }
 
-#bt_info_submit{
+#lb_info_img{
   grid-row: 4;
+  grid-column: 1;
+}
+
+
+#background_image{
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  margin: 0px;
+  overflow: hidden;
+  border: 0;
+  grid-row: 4;
+  grid-column: 2;
+}
+
+input[type=file]::file-selector-button {
+  width: 150px;
+ height: 30px;
+ background: #fff;
+ border: 1px solid rgb(77,77,77);
+ border-radius: 10px;
+ cursor: pointer;
+ &:hover {
+   background: rgb(77,77,77);
+   color: #fff;
+ }
+}
+
+
+
+#bt_info_submit{
+  grid-row: 5;
   grid-column: span 2;
   width: 200px;
   font-size:25px;
@@ -11504,7 +11535,7 @@ header.masthead .bg-circle-4 {
 #point_5{
   color: white;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
   align-items: center;
   margin: 0px;
   font-family: 'Jua', sans-serif;
@@ -11526,7 +11557,7 @@ header.masthead .bg-circle-4 {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: auto;
+  margin: 10px;
 }
 
 #tb_activityImage{
@@ -11547,5 +11578,4 @@ header.masthead .bg-circle-4 {
 
 #lb_ch{
   font-family: 'Jua', sans-serif;
-
 }
