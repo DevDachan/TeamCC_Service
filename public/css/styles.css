@@ -11407,6 +11407,8 @@ header.masthead .bg-circle-4 {
   height: 40px;
   font-weight: bold;
   padding: 5px;
+  border:0px;
+  border-radius:5px;
 }
 
 #ip_pwd{
@@ -11415,6 +11417,9 @@ header.masthead .bg-circle-4 {
   height: 40px;
   font-weight: bold;
   padding: 5px;
+  border:0px;
+  margin-top: 5px;
+    border-radius:5px;
 }
 
 #ip_pwd2{
@@ -11465,6 +11470,10 @@ header.masthead .bg-circle-4 {
 #bt_info_team{
   grid-row: 1;
   grid-column: 2;
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 10px;
+  font-family: 'Jua', sans-serif;
 }
 
 
@@ -11476,6 +11485,10 @@ header.masthead .bg-circle-4 {
 #bt_info_id{
   grid-row: 2;
   grid-column: 2;
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 10px;
+  font-family: 'Jua', sans-serif;
 }
 
 
@@ -11487,6 +11500,10 @@ header.masthead .bg-circle-4 {
 #bt_info_pwd{
   grid-row: 3;
   grid-column: 2;
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 10px;
+  font-family: 'Jua', sans-serif;
 }
 
 #lb_info_img{
@@ -11496,14 +11513,24 @@ header.masthead .bg-circle-4 {
 
 
 #background_image{
-  width: 200px;
+  width: 120px;
   height: 50px;
   padding: 0;
   margin: 0px;
   overflow: hidden;
   border: 0;
+}
+
+#lb_background_image{
   grid-row: 4;
   grid-column: 2;
+  background: #D8EFFB;
+  border:0px;
+  border-radius:10px;
+  font-weight:bold;
+  margin:5px;
+  width: 200px;
+  font-family: 'Jua', sans-serif;
 }
 
 input[type=file]::file-selector-button {
@@ -11520,9 +11547,19 @@ input[type=file]::file-selector-button {
 }
 
 
+#lb_info_select{
+  grid-row: 5;
+  grid-column: 1;
+}
+
+#lb_select_image{
+  grid-row: 5;
+  grid-column: 2;
+}
+
 
 #bt_info_submit{
-  grid-row: 5;
+  grid-row: 6;
   grid-column: span 2;
   width: 200px;
   font-size:25px;
