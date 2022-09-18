@@ -11428,6 +11428,9 @@ header.masthead .bg-circle-4 {
   height: 40px;
   font-weight: bold;
   padding: 5px;
+  border:0px;
+  margin-top: 5px;
+  border-radius:5px;
 }
 
 #bt_login{
@@ -11474,6 +11477,7 @@ header.masthead .bg-circle-4 {
   padding: 3px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
+  width:200px;
 }
 
 
@@ -11489,6 +11493,7 @@ header.masthead .bg-circle-4 {
   padding: 3px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
+  width: 200px;
 }
 
 
@@ -11504,6 +11509,7 @@ header.masthead .bg-circle-4 {
   padding: 3px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
+  width: 200px;
 }
 
 #lb_info_img{
@@ -11561,7 +11567,7 @@ input[type=file]::file-selector-button {
 #bt_info_submit{
   grid-row: 6;
   grid-column: span 2;
-  width: 200px;
+  width: 150px;
   font-size:25px;
   border-radius: 20px;
   border:0px;
@@ -11572,7 +11578,7 @@ input[type=file]::file-selector-button {
 #point_5{
   color: white;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 2.5vw;
   align-items: center;
   margin: 0px;
   font-family: 'Jua', sans-serif;
@@ -11580,16 +11586,16 @@ input[type=file]::file-selector-button {
 }
 
 #td_table{
-  width:200px;
-  height:200px;
+  width:30vw;
+  height:30vw;
   border:0px;
 }
 
 
 #td_background{
-  width:150px;
-  height:150px;
-  border-radius:80px;
+  width:20vw;
+  height:20vw;
+  border-radius:50vw;
   background: black;
   align-items: center;
   justify-content: center;
@@ -11615,4 +11621,66 @@ input[type=file]::file-selector-button {
 
 #lb_ch{
   font-family: 'Jua', sans-serif;
+}
+
+
+
+
+
+.wrapper {
+   width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+#switch {
+    position: absolute;
+    /* hidden */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.switch_label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 58px;
+  height: 28px;
+  background: #fff;
+  border: 2px solid #daa;
+  border-radius: 20px;
+  transition: 0.2s;
+ }
+.switch_label:hover {
+    background: #efefef;
+  }
+
+.onf_btn {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #daa;
+    transition: 0.2s;
+}
+
+     /* checking style */
+#switch:checked+.switch_label {
+    background: #c44;
+    border: 2px solid #c44;
+}
+
+#switch:checked+.switch_label:hover {
+    background: #e55;
+}
+
+   /* move */
+#switch:checked+.switch_label .onf_btn {
+   left: 34px;
+   background: #fff;
+   box-shadow: 1px 2px 3px #00000020;
 }

@@ -157,6 +157,6 @@ app.get('/image_upload',upload.single('userfile'),function(request, response){
 
 
 
-app.listen(3000, function(){
-  console.log('conneted 3000 port!!');
+app.listen(80, function(){
+  console.log('conneted 80 port!!');
 });

@@ -1,8 +1,8 @@
 
 
-CREATE DATABASE `team_cc` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE `team_aa` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
-use team_cc;
+use team_aa;
 
 CREATE TABLE `activity` (
   `id` int NOT NULL,
@@ -41,6 +41,7 @@ CREATE TABLE `team_info` (
   `num` varchar(255) DEFAULT NULL,
   `background_image` mediumblob,
   `background_mimetype` varchar(50) DEFAULT NULL,
+  `state` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`admin_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
