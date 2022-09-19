@@ -109,6 +109,9 @@ app.get('/activity_image', function(request,response){
   admin.activity_image(request,response);
 })
 
+app.get('/initialization_state', function(request, response){
+   admin.initialization_state(request,response);
+});
 app.get('/initialization', function(request, response){
    admin.initialization(request,response);
 });
@@ -123,6 +126,9 @@ app.post('/change_color', function(request, response){
    admin.change_color(request,response);
 });
 
+app.get('/change_url_state',function(request,response){
+   admin.change_url_state(request,response);
+})
 
 //--------------------------- user.js --------------------------------
 
