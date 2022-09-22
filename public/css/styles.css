@@ -7493,7 +7493,9 @@ textarea.form-control-lg {
 
 .py-5 {
   padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-bottom: 10rem !important;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .pt-0 {
@@ -11477,7 +11479,7 @@ header.masthead .bg-circle-4 {
   padding: 3px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
-  width:200px;
+  width:150px;
 }
 
 
@@ -11493,7 +11495,7 @@ header.masthead .bg-circle-4 {
   padding: 3px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
-  width: 200px;
+  width: 150px;
 }
 
 
@@ -11509,7 +11511,7 @@ header.masthead .bg-circle-4 {
   padding: 3px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
-  width: 200px;
+  width: 150px;
 }
 
 #lb_info_img{
@@ -11535,12 +11537,12 @@ header.masthead .bg-circle-4 {
   border-radius:10px;
   font-weight:bold;
   margin:5px;
-  width: 200px;
+  width: 150px;
   font-family: 'Jua', sans-serif;
 }
 
 input[type=file]::file-selector-button {
-  width: 150px;
+  width: 130px;
  height: 30px;
  background: #fff;
  border: 1px solid rgb(77,77,77);
@@ -11567,7 +11569,7 @@ input[type=file]::file-selector-button {
 #bt_info_submit{
   grid-row: 6;
   grid-column: span 2;
-  width: 150px;
+  width: 130px;
   font-size:25px;
   border-radius: 20px;
   border:0px;
