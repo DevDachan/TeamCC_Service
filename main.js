@@ -58,8 +58,6 @@ app.post('/admin_register_state',function(request, response){
   admin.register_state(request, response);
 })
 
-
-
 app.post('/admin_score', function(request, response){
   admin.score(request,response);
 });
@@ -139,12 +137,9 @@ app.get('/user', function(request, response){
   user.main(request, response, request.query.id);
 });
 
-
-
 app.post('/user_delete', function(request, response){
    user.activity_delete(request,response,request.query.id);
 });
-
 
 
 app.get('/user_score', function(request, response){
