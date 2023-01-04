@@ -1,9 +1,24 @@
-# Node-JS-example-TeamCC
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=NodeJS-TeamCC&fontSize=70" width=100% />
 
+
+<div align='center'>
+	<img src="https://img.shields.io/badge/JavaScript-007396?style=flat&logo=JavaScript&logoColor=white"/>
+	<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML-007396?style=flat&logo=HTML5&logoColor=white"/>
+	<img src="https://img.shields.io/badge/CSS-F43059?style=flat&logo=CSS Wizardry&logoColor=white"/>
+	<img src="https://img.shields.io/badge/Bootstrap-F43059?style=flat&logo=Bootstrap&logoColor=white"/>
+</div>
+<br/>
+  
+  
 ## TEAM CC 활동
+* 해당 서비스는 한동대학교 내에서 매 학기마다 이뤄지는 팀CC 활동을 조금 더 편리하게 하기 위해 만든 서비스로 관리자가 하나의 게시판을 만들면 사용자들에게 개인 업로드 페이지를 부여해서 사진을 입력 받을 수 있도록 하는 서비스입니다.
 
 * TEAM CC 활동이란 팀 내에서 팀원들끼리 친해지기 위해서 남녀 짝을 지어 주어진 활동을 하고 각 활동에 따라
 점수를 부여받아 최종적으로 점수가 높은 짝이 우승하는 활동이다.
+
+
+</br>
 
 ### 문제점
 - TEAM CC활동을 하면서 기존에는 단순히 카카오톡을 통해 팀장이 각 팀원들의 짝을 정해주고 수행하는 활동에 
@@ -21,8 +36,6 @@
 호스팅 서버는 Cafe24의 도메인을 사용했다.
 - 전체 Web은 PC에서도 접속이 가능하지만 모바일에서 접속이 가능하도록 UI들을 구성함
 
-- 전체 Template은 아래 주소의 Bootstrap opne HTML template을 사용함
-https://startbootstrap.com/theme/one-page-wonder 
 
 1. 처음 팀장이 접속하는 화면
 ![image](https://user-images.githubusercontent.com/111109411/191505060-87081406-be07-4876-9780-56dc8e1134b9.png)
@@ -50,7 +63,9 @@ https://startbootstrap.com/theme/one-page-wonder
 얼마나 활동을 진행하는지 확인이 가능하다.
 
 
+### Template
+* [Bootstrap](https://startbootstrap.com/theme/one-page-wonder )
 
 
-Guideline
-https://daffodil-mum-545.notion.site/HGU-TEAM-CC-Site-Guideline-a33a35526b7043b6bc0446febb4c6510 
+### Guideline
+* [Guideline](https://daffodil-mum-545.notion.site/HGU-TEAM-CC-Site-Guideline-a33a35526b7043b6bc0446febb4c6510)
