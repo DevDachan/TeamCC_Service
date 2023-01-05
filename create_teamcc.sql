@@ -1,8 +1,8 @@
 
 
-CREATE DATABASE `team_aa` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE `team_cc` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
-use team_aa;
+use team_cc;
 
 CREATE TABLE `activity` (
   `id` int NOT NULL,
