@@ -52,3 +52,13 @@ CREATE TABLE `url` (
   PRIMARY KEY (`admin_id`,`team_num`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+
+CREATE TABLE `count` (
+  `id` varchar(50) DEFAULT NULL,
+  `count` int DEFAULT NULL,
+  `year` varchar(50) DEFAULT NULL,
+  `month` varchar(50) DEFAULT NULL,
+  `day` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
