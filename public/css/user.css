@@ -1,0 +1,42 @@
+/*
+    user.css File : user.js File's CSS
+    (Modified on 2023.01.05)
+*/
+
+/* exports.main */
+.divCSS{
+    text-align: center; 
+    margin: auto; 
+    margin-top: 50px;
+}
+.spanCSS{
+    font-weight: bold; 
+    border-radius: 5px; 
+    border-bottom: 2px solid #B2E0F7; 
+    color: white; 
+    padding: 0.15em; 
+    font-size: 20px;
+    background: #B0E0E6; 
+    display: inline"
+}
+.totalScore{
+    display: inline; 
+    margin-left: 10px; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.formCSS{
+    text-align: center;
+    margin: auto; 
+    margin-top: 50px;
+}
+.scoreBoardBtn{
+    background: #B0E0E6; 
+    font-size: 20px;
+    border: none; 
+    font-weight: bold; 
+    border-radius: 20px; 
+    width: 150px; 
+    height: 50px
+}
