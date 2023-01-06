@@ -1,0 +1,111 @@
+/*
+    template_user.css File : template_user.js File's CSS
+    (Modified on 2023.01.06)
+*/
+
+/* common */
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+/* common - main_HTML:function, score_HTML:function */
+.headerCSS{
+    height: 400px; 
+}
+.footerTextCSS{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.footerCSS{
+    width: 100%;
+    background-color: black;
+    padding-top:50px;
+    padding-bottom: 40px;
+    position: fixed;
+    bottom: 0;
+ }
+.mid_container{
+    margin-bottom: 150px;
+}
+body::-webkit-scrollbar{ 
+    display: none;
+}
+
+/* userActivityTable:function */
+.filebox label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: white;
+    font-weight: bold;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.filebox input[type="file"] {  /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+.userActivity_td{
+    border-bottom: 2px solid black;
+    font-size: 25px; 
+    font-weight: bold;
+}
+.userActivityTable_css{
+    text-align: center;
+    margin: auto; 
+    margin-top:50px;
+}
+td{
+    padding: 7px;
+}
+
+.deleteBtn{
+    border: 0px; 
+    font-weight: bold; 
+    border-radius: 20px; 
+    width: 80px; 
+    height:30px;
+}
+
+.tdCSS{
+    border-bottom: 2px solid lightgrey;
+}
+
+/* score_HTML:function */
+.top{
+    font-size: 40px;
+    font-weight: bold;
+}
+.top_rank{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+.mid{
+    font-size: 20px;
+}
+.mainScreenBtn{
+    background: #B0E0E6; 
+    font-family: 'Jua', sans-serif; 
+    font-size: 20px;
+    border: 0px; 
+    font-weight: bold; 
+    border-radius: 20px; 
+    width: 200px; 
+    height:50px;
+}
