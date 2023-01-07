@@ -62,3 +62,6 @@ CREATE TABLE `count` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
+INSERT INTO count VALUES('admin',0,'2023','01','07');
+INSERT INTO count VALUES('user',0,'2023','01','07');
+
