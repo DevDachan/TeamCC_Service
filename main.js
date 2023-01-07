@@ -133,6 +133,10 @@ app.post('/change_title', function(request, response){
    admin.change_title(request,response);
 });
 
+app.post('/change_color_scoretext', function(request, response){
+   admin.change_color_scoretext(request,response);
+});
+
 
 app.get('/change_url_state',function(request,response){
    admin.change_url_state(request,response);
