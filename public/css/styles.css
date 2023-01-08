@@ -11321,7 +11321,7 @@ html {
 
 header.masthead {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-top: calc(7rem + 50px);
   padding-bottom: 7rem;
   background-repeat: no-repeat;
