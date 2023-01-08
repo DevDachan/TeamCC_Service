@@ -16,7 +16,7 @@ table{
 .footerTextCSS{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 .footerCSS{
     width: 100%;
@@ -25,7 +25,7 @@ table{
     padding-bottom: 40px;
     position: fixed;
     bottom: 0;
- }
+}
 #mid_container{
     margin-bottom: 150px;
 }

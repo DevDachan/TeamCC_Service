@@ -26,6 +26,17 @@ td{
 .mid{
     font-size: 20px;
 }
+.footerCSS{
+  width: 100%;
+  background-color: black;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+.footerTextCSS{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
 
 
 
@@ -91,6 +102,7 @@ td{
 #tb_activityImage{
   margin:auto;
   border: 0px;
+  border-radius: 10px;
 }
 
 #bt_change{
