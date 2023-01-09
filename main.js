@@ -5,15 +5,10 @@ var db = require('./lib/db.js');
 var admin = require('./lib/admin.js');
 var user = require('./lib/user.js');
 
-
 var session = require('express-session');
-
 var express = require('express');
 var app = express();
 app.use(express.static('public'));
-
-
-
 
 var multer = require('multer');
 var storage = multer.memoryStorage();

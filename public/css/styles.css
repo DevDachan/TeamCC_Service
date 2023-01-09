@@ -3031,32 +3031,43 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ee0979;
-  border-color: #ee0979;
+  /* background-color: #ee0979;
+  border-color: #ee0979; */
+  background-color: #67adef;
+  border-color: #67adef;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #ca0867;
-  border-color: #be0761;
+  /* background-color: #ca0867;
+  border-color: #be0761; */
+  background-color: #4a536d;
+  border-color: #4a536d;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #ca0867;
-  border-color: #be0761;
-  box-shadow: 0 0 0 0.25rem rgba(241, 46, 141, 0.5);
+  /* background-color: #ca0867;
+  border-color: #be0761; */
+  background-color: #4a536d;
+  border-color: #4a536d;
+  box-shadow: 0 0 0 0.25rem rgba(65, 75, 105, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #be0761;
-  border-color: #b3075b;
+  /* background-color: #be0761;
+  border-color: #b3075b; */
+  background-color: #4a536d;
+  border-color: #4a536d;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(241, 46, 141, 0.5);
+  /* box-shadow: 0 0 0 0.25rem rgba(241, 46, 141, 0.5); */
+  box-shadow: 0 0 0 0.25rem rgba(57, 82, 109, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #ee0979;
-  border-color: #ee0979;
+  /* background-color: #ee0979;
+  border-color: #ee0979; */
+  background-color: #4a536d;
+  border-color: #4a536d;
 }
 
 .btn-secondary {
@@ -11343,7 +11354,8 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  /* background: url("/assets/img/trashcan.png"); */
+  /* background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
 }
 header.masthead .bg-circle-1 {
   height: 90rem;
