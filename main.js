@@ -86,6 +86,15 @@ app.get('/admin_main', function(request, response){
 });
 
 
+app.post('/admin_profile', function(request, response){
+    admin.admin_profile(request,response);
+});
+app.get('/admin_profile', function(request, response){
+    admin.admin_profile(request,response);
+});
+
+
+
 app.post('/admin_update_state',upload.single('background_image'), function(request, response){
     admin.update_state(request,response);
 });
