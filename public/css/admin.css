@@ -61,7 +61,7 @@ td{
 
 .backgroundCSS{
   /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
-  background: url("../assets/img/test2.jpeg");
+  background: url("../assets/img/background.jpeg");
   background-size: cover;
   height: 100vh;
 }
