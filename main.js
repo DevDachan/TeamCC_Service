@@ -14,17 +14,19 @@ var multer = require('multer');
 var storage = multer.memoryStorage();
 var upload = multer({storage: storage});
 
-
 app.use(session({
   secret:"handongdevsecret",
   resave:false,
   saveUninitialized:true,
-
 }));
 
-
-
-
+//-------------------------- common - alert ------------------------------------
+app.get('/alert_popup',function(request, response){
+   admin.alert_popup(request, response);
+});
+app.get('/confirm_popup',function(request, response){
+   admin.confirm_popup(request, response);
+})
 
 //-------------------------- admin.js  ------------------------------------
 app.post('/', function(request, response){
@@ -46,7 +48,6 @@ app.post('/admin_login', function(request, response){
 
 app.get('/admin_register',function(request, response){
   admin.register(request, response);
-
 })
 
 app.post('/admin_register_state',function(request, response){
