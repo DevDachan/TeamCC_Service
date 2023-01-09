@@ -8,11 +8,27 @@ table{
   text-align: center;
   border-collapse: collapse;
 }
+
 td{
   padding: 5px;
   text-align:center;
   font-weight: bold;
-  border:1px solid black;
+  /* background-color: #F4F6F6; */
+  border:2px solid white;
+}
+.thCSS{
+  height: 10px; 
+  width: 50%; 
+  margin: auto; 
+  border-top-left-radius: 6px; 
+  border-top-right-radius: 6px;
+}
+.thTextCSS{
+  width:100%; 
+  padding: 15px;
+}
+.tdCSS{
+  background-color: #F4F6F6; 
 }
 .top{
     font-size: 40px;
@@ -191,14 +207,14 @@ input[type=file]::file-selector-button {
 
 
 
-#delete_bt{
+/* #delete_bt{
   background:#FF4646;
   border:0px;
   border-radius: 10px;
   margin: 5px;
   font-weight: bold;
   color: white;
-}
+} */
 
 
 #grid{
