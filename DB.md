@@ -38,8 +38,8 @@
 
 ### 3. url
 > * **url       : 각 팀원들에게 제공될 URL을 의미합니다.**
-> * **admin_id  : **
-> * **team_num  : **
+> * **admin_id  : 해당 url을 indexing해줄 관리자 ID를 의미합니다.**
+> * **team_num  : 해당 팀의 index 번호를 의미합니다.**
 
 ### 4. activity
 > * **admin_id  : **
