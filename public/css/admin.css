@@ -299,7 +299,7 @@ input[type=file]::file-selector-button {
 .infoBlank{
   background-color: #e8e8e85c;
   border: none;
-  border-radius: 10px; 
+  border-radius: 10px;
   height: 44px;
   width: 220px;
   border-radius: 5px;
@@ -393,4 +393,25 @@ input[type=file]::file-selector-button {
   border: none;
   border-radius: 20px;
   font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  #navbar-grid{
+    grid-template-columns: 80vw !important;
+  }
+  #navbar-header{
+    grid-row:1;
+    grid-column: 1;
+    text-align: left;
+  }
+  #navbar-item{
+    position: relative;
+    top: -25px;    
+    grid-row:2;
+    grid-column: 1 !important;
+  }
+  .navbar-rg-item{
+    text-align: left !important;
+  }
+
 }
