@@ -233,28 +233,28 @@ input[type=file]::file-selector-button {
   grid-row: 1;
   grid-column: 2;
   place-items: left;
-  height: 40px;
+  /* height: 44px; */
   font-weight: bold;
   padding: 5px;
   border:0px;
-  border-radius:5px;
+  /* border-radius:5px; */
 }
 
 #ip_pwd{
   grid-row: 2;
   grid-column: 2;
-  height: 40px;
+  /* height: 40px; */
   font-weight: bold;
   padding: 5px;
   border:0px;
   margin-top: 5px;
-    border-radius:5px;
+  border-radius:5px;
 }
 
 #ip_pwd2{
   grid-row: 3;
   grid-column: 2;
-  height: 40px;
+  /* height: 40px; */
   font-weight: bold;
   padding: 5px;
   border:0px;
@@ -288,6 +288,15 @@ input[type=file]::file-selector-button {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
+}
+
+.infoBlank{
+  background-color: #e8e8e85c;
+  border: none;
+  border-radius: 10px; 
+  height: 44px;
+  width: 220px;
+  border-radius: 5px;
 }
 
 #lb_info_team{
