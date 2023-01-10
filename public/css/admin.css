@@ -290,6 +290,12 @@ input[type=file]::file-selector-button {
   place-items: center;
 }
 
+.closeInfo{
+  float: right;
+  margin-right: -20px;
+  margin-top: -100px;
+  font-size: 25px;
+}
 .infoBlank{
   background-color: #e8e8e85c;
   border: none;
