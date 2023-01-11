@@ -180,6 +180,14 @@ app.get('/image_upload',upload.single('userfile'),function(request, response){
 
 
 
+app.get('/image_card',function(request,response){
+   user.image_card(request,response);
+})
+
+app.post('/image_card',function(request,response){
+   user.image_card(request,response);
+})
+
 app.listen(80, function(){
   console.log('conneted 80 port!!');
 });
