@@ -315,10 +315,10 @@ input[type=file]::file-selector-button {
   grid-row: 1;
   grid-column: 2;
   border-radius: 20px;
-  padding: 3px;
+  padding: 5px;
   padding-left: 10px;
   font-family: 'Jua', sans-serif;
-  width:150px;
+  width:180px;
 }
 
 
@@ -373,10 +373,11 @@ input[type=file]::file-selector-button {
   grid-column: 2;
   background: #D8EFFB;
   border:0px;
-  border-radius:10px;
+  border-radius:20px;
   font-weight:bold;
   margin:5px;
-  width: 150px;
+  width: 180px;
+  padding: 5px;
   font-family: 'Jua', sans-serif;
 }
 
@@ -386,12 +387,11 @@ input[type=file]::file-selector-button {
   margin-top: 30px;
 }
 #captureBtn{
-  background-color: tomato;
+  background-color: rgb(243, 243, 243);
   font-weight: bold;
-  color: white;
   padding: 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 40px;
   font-size: 25px;
 }
 
