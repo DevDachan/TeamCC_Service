@@ -12,7 +12,8 @@
 </div>
 <br/>
   
-  
+
+## 프로젝트 설명
 
 * 해당 서비스는 한동대학교 내에서 매 학기마다 이뤄지는 팀CC 활동을 조금 더 편리하게 하기 위해 만든 서비스로 관리자가 하나의 게시판을 만들면 사용자들에게 개인 업로드 페이지를 부여해서 사진을 입력 받을 수 있도록 하는 서비스입니다.
 * TEAM CC 활동이란 팀 내에서 팀원들끼리 친해지기 위해서 남녀 짝을 지어 주어진 활동을 하고 각 활동에 따라 점수를 부여받아 최종적으로 점수가 높은 짝이 우승하는 활동이다.   
@@ -128,4 +129,10 @@ db.query(`SELECT * FROM url WHERE url=?`,[rand_url],function(error,admin_id){
 - 팀원들의 경우에는 자신들이 하는 활동들을 실시간으로 업로드해 점수를 확인 할 수 있고 현재 다른 팀원들이
 얼마나 활동을 진행하는지 확인이 가능하다.
 
+
+## Contributors
+
+<a href="https://github.com/DevDachan/NodeJS-TeamCCService/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DevDachan/NodeJS-TeamCCService" />
+</a>
 
