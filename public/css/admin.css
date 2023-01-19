@@ -4,6 +4,13 @@
 */
 
 /* exports.main */
+#inputCSS{
+  width: 100%;
+  height: 38px;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+}
+
 table{
   text-align: center;
   border-collapse: collapse;
