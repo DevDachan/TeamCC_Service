@@ -35,6 +35,18 @@ td{
 .tdCSS{
   background-color: #F4F6F6;
 }
+
+.tdActivity{
+  width: 400px;
+  word-wrap:break-word;
+}
+
+@media (min-width: 992px) {
+  .tdActivity{
+    width: 250px;
+  }
+}
+
 .top{
     font-size: 40px;
     font-weight: bold;
