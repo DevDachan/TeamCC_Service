@@ -467,15 +467,41 @@ td{
 }
 
 .tdActivity{
-  width: 400px;
+  width: 18em;
   word-wrap:break-word;
 }
+.pActivity{
+  width: 18em;
+}
 
-@media (min-width: 992px) {
+@media (max-width: 1200px) {
   .tdActivity{
-    width: 250px;
+    width: 12em;
+  }
+  .pActivity{
+    width: 12em;
   }
 }
+
+
+@media (max-width: 992px) {
+  .tdActivity{
+    width: 20em;
+  }
+  .pActivity{
+    width: 20em;
+  }
+}
+
+@media (max-width: 770px) {
+  .tdActivity{
+    width: 10em;
+  }
+  .pActivity{
+    width: 10em;
+  }
+}
+
 
 .top{
     font-size: 40px;
