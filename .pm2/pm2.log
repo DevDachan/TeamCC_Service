@@ -1,0 +1,208 @@
+2023-01-16T15:55:54: PM2 log: ===============================================================================
+2023-01-16T15:55:54: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-01-16T15:55:54: PM2 log: Time                 : Mon Jan 16 2023 15:55:54 GMT+0900 (Korean Standard Time)
+2023-01-16T15:55:54: PM2 log: PM2 version          : 5.2.2
+2023-01-16T15:55:54: PM2 log: Node.js version      : 10.19.0
+2023-01-16T15:55:54: PM2 log: Current arch         : x64
+2023-01-16T15:55:54: PM2 log: PM2 home             : /home/dachan/.pm2
+2023-01-16T15:55:54: PM2 log: PM2 PID file         : /home/dachan/.pm2/pm2.pid
+2023-01-16T15:55:54: PM2 log: RPC socket file      : /home/dachan/.pm2/rpc.sock
+2023-01-16T15:55:54: PM2 log: BUS socket file      : /home/dachan/.pm2/pub.sock
+2023-01-16T15:55:54: PM2 log: Application log path : /home/dachan/.pm2/logs
+2023-01-16T15:55:54: PM2 log: Worker Interval      : 30000
+2023-01-16T15:55:54: PM2 log: Process dump file    : /home/dachan/.pm2/dump.pm2
+2023-01-16T15:55:54: PM2 log: Concurrent actions   : 2
+2023-01-16T15:55:54: PM2 log: SIGTERM timeout      : 1600
+2023-01-16T15:55:54: PM2 log: ===============================================================================
+2023-01-16T15:55:54: PM2 log: [Watch] Start watching main
+2023-01-16T15:55:54: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:54: PM2 log: App [main:0] online
+2023-01-16T15:55:54: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:54: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:54: PM2 log: App [main:0] online
+2023-01-16T15:55:55: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:55: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:55: PM2 log: App [main:0] online
+2023-01-16T15:55:55: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:55: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:55: PM2 log: App [main:0] online
+2023-01-16T15:55:55: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:55: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:55: PM2 log: App [main:0] online
+2023-01-16T15:55:56: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:56: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:56: PM2 log: App [main:0] online
+2023-01-16T15:55:56: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:56: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:56: PM2 log: App [main:0] online
+2023-01-16T15:55:57: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:57: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:57: PM2 log: App [main:0] online
+2023-01-16T15:55:57: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:57: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:57: PM2 log: App [main:0] online
+2023-01-16T15:55:58: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:58: PM2 log: App [main:0] online
+2023-01-16T15:55:58: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:58: PM2 log: App [main:0] online
+2023-01-16T15:55:59: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:59: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:59: PM2 log: App [main:0] online
+2023-01-16T15:55:59: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:55:59: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:55:59: PM2 log: App [main:0] online
+2023-01-16T15:56:00: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:56:00: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:56:00: PM2 log: App [main:0] online
+2023-01-16T15:56:00: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:56:00: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:56:00: PM2 log: App [main:0] online
+2023-01-16T15:56:01: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:56:01: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T15:56:01: PM2 log: App [main:0] online
+2023-01-16T15:56:01: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T15:56:01: PM2 log: Script /home/dachan/main.js had too many unstable restarts (16). Stopped. "errored"
+2023-01-16T15:56:02: PM2 log: [Watch] Stop watching main
+2023-01-16T15:56:02: PM2 log: Stopping app:main id:0
+2023-01-16T15:56:02: PM2 error: app=main id=0 does not have a pid
+2023-01-16T15:56:02: PM2 log: PM2 successfully stopped
+2023-01-16T20:03:58: PM2 log: ===============================================================================
+2023-01-16T20:03:58: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-01-16T20:03:58: PM2 log: Time                 : Mon Jan 16 2023 20:03:58 GMT+0900 (Korean Standard Time)
+2023-01-16T20:03:58: PM2 log: PM2 version          : 5.2.2
+2023-01-16T20:03:58: PM2 log: Node.js version      : 10.19.0
+2023-01-16T20:03:58: PM2 log: Current arch         : x64
+2023-01-16T20:03:58: PM2 log: PM2 home             : /home/dachan/.pm2
+2023-01-16T20:03:58: PM2 log: PM2 PID file         : /home/dachan/.pm2/pm2.pid
+2023-01-16T20:03:58: PM2 log: RPC socket file      : /home/dachan/.pm2/rpc.sock
+2023-01-16T20:03:58: PM2 log: BUS socket file      : /home/dachan/.pm2/pub.sock
+2023-01-16T20:03:58: PM2 log: Application log path : /home/dachan/.pm2/logs
+2023-01-16T20:03:58: PM2 log: Worker Interval      : 30000
+2023-01-16T20:03:58: PM2 log: Process dump file    : /home/dachan/.pm2/dump.pm2
+2023-01-16T20:03:58: PM2 log: Concurrent actions   : 2
+2023-01-16T20:03:58: PM2 log: SIGTERM timeout      : 1600
+2023-01-16T20:03:58: PM2 log: ===============================================================================
+2023-01-16T20:03:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:03:58: PM2 log: App [main:0] online
+2023-01-16T20:03:58: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:03:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:03:58: PM2 log: App [main:0] online
+2023-01-16T20:03:58: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:03:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:03:58: PM2 log: App [main:0] online
+2023-01-16T20:03:59: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:03:59: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:03:59: PM2 log: App [main:0] online
+2023-01-16T20:03:59: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:03:59: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:03:59: PM2 log: App [main:0] online
+2023-01-16T20:04:00: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:00: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:00: PM2 log: App [main:0] online
+2023-01-16T20:04:00: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:00: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:00: PM2 log: App [main:0] online
+2023-01-16T20:04:01: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:01: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:01: PM2 log: App [main:0] online
+2023-01-16T20:04:01: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:01: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:01: PM2 log: App [main:0] online
+2023-01-16T20:04:02: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:02: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:02: PM2 log: App [main:0] online
+2023-01-16T20:04:02: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:02: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:02: PM2 log: App [main:0] online
+2023-01-16T20:04:03: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:03: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:03: PM2 log: App [main:0] online
+2023-01-16T20:04:03: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:03: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:03: PM2 log: App [main:0] online
+2023-01-16T20:04:04: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:04: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:04: PM2 log: App [main:0] online
+2023-01-16T20:04:04: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:04: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:04: PM2 log: App [main:0] online
+2023-01-16T20:04:04: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:04: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:04: PM2 log: App [main:0] online
+2023-01-16T20:04:05: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:05: PM2 log: Script /home/dachan/main.js had too many unstable restarts (16). Stopped. "errored"
+2023-01-16T20:04:43: PM2 log: Stopping app:main id:0
+2023-01-16T20:04:43: PM2 error: app=main id=0 does not have a pid
+2023-01-16T20:04:43: PM2 log: PM2 successfully stopped
+2023-01-16T20:04:49: PM2 log: ===============================================================================
+2023-01-16T20:04:49: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-01-16T20:04:49: PM2 log: Time                 : Mon Jan 16 2023 20:04:49 GMT+0900 (Korean Standard Time)
+2023-01-16T20:04:49: PM2 log: PM2 version          : 5.2.2
+2023-01-16T20:04:49: PM2 log: Node.js version      : 10.19.0
+2023-01-16T20:04:49: PM2 log: Current arch         : x64
+2023-01-16T20:04:49: PM2 log: PM2 home             : /home/dachan/.pm2
+2023-01-16T20:04:49: PM2 log: PM2 PID file         : /home/dachan/.pm2/pm2.pid
+2023-01-16T20:04:49: PM2 log: RPC socket file      : /home/dachan/.pm2/rpc.sock
+2023-01-16T20:04:49: PM2 log: BUS socket file      : /home/dachan/.pm2/pub.sock
+2023-01-16T20:04:49: PM2 log: Application log path : /home/dachan/.pm2/logs
+2023-01-16T20:04:49: PM2 log: Worker Interval      : 30000
+2023-01-16T20:04:49: PM2 log: Process dump file    : /home/dachan/.pm2/dump.pm2
+2023-01-16T20:04:49: PM2 log: Concurrent actions   : 2
+2023-01-16T20:04:49: PM2 log: SIGTERM timeout      : 1600
+2023-01-16T20:04:49: PM2 log: ===============================================================================
+2023-01-16T20:04:54: PM2 log: [Watch] Start watching main
+2023-01-16T20:04:54: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:54: PM2 log: App [main:0] online
+2023-01-16T20:04:55: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:55: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:55: PM2 log: App [main:0] online
+2023-01-16T20:04:55: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:55: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:55: PM2 log: App [main:0] online
+2023-01-16T20:04:56: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:56: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:56: PM2 log: App [main:0] online
+2023-01-16T20:04:56: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:56: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:56: PM2 log: App [main:0] online
+2023-01-16T20:04:57: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:57: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:57: PM2 log: App [main:0] online
+2023-01-16T20:04:57: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:57: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:57: PM2 log: App [main:0] online
+2023-01-16T20:04:57: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:57: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:58: PM2 log: App [main:0] online
+2023-01-16T20:04:58: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:58: PM2 log: App [main:0] online
+2023-01-16T20:04:58: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:58: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:58: PM2 log: App [main:0] online
+2023-01-16T20:04:59: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:59: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:59: PM2 log: App [main:0] online
+2023-01-16T20:04:59: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:04:59: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:04:59: PM2 log: App [main:0] online
+2023-01-16T20:05:00: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:05:00: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:05:00: PM2 log: App [main:0] online
+2023-01-16T20:05:00: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:05:00: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:05:00: PM2 log: App [main:0] online
+2023-01-16T20:05:01: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:05:01: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:05:01: PM2 log: App [main:0] online
+2023-01-16T20:05:01: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:05:01: PM2 log: App [main:0] starting in -fork mode-
+2023-01-16T20:05:01: PM2 log: App [main:0] online
+2023-01-16T20:05:02: PM2 log: App [main:0] exited with code [1] via signal [SIGINT]
+2023-01-16T20:05:02: PM2 log: Script /home/dachan/main.js had too many unstable restarts (16). Stopped. "errored"
+2023-01-16T20:06:11: PM2 log: [Watch] Stop watching main
+2023-01-16T20:06:11: PM2 log: Stopping app:main id:0
+2023-01-16T20:06:11: PM2 error: app=main id=0 does not have a pid
+2023-01-16T20:06:11: PM2 log: PM2 successfully stopped
