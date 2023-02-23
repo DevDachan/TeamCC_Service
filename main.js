@@ -188,6 +188,6 @@ app.post('/image_card',function(request,response){
    user.image_card(request,response);
 })
 
-app.listen(80, function(){
+app.listen(8080, function(){
   console.log('conneted 80 port!!');
 });
