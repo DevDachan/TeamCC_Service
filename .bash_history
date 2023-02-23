@@ -95,3 +95,10 @@ vim admin.js
 vim template_admin.js 
 sudo mysql -u root -p
 exit
+ls
+git branch
+git add .
+git commit -m "commit test"
+git pull origin master
+git push origin master
+exit
