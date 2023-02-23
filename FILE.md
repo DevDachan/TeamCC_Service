@@ -23,9 +23,9 @@
 ### [2-2 css](#2-2-css)
 [2-2-1 styles.css](#2-2-1-stylescss)     
 [2-2-2 admin.css](#2-2-2-admincss)   
-[2-2-3 template_admin.css](#2-2-3-templateadmincss)   
+[2-2-3 template_admin.css](#2-2-3-template_admincss)   
 [2-2-4 user.css](#2-2-4-usercss)      
-[2-2-5 template_user.css](#2-2-5-templateusercss)     
+[2-2-5 template_user.css](#2-2-5-template_usercss)     
 ### [2-3 js](#2-3-js)
 
 
@@ -71,53 +71,30 @@
 
 
 ### 2-1 assets
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
->  - **Parameter**: 사용자 email, code 번호
->  - **Async**: false
->  - **사용되는 페이지**: ViewRegister.jsp
+>  - assets의 경우에는 해당 페이지에서 기본으로 사용되는 이미지 파일들을 담고 있는 폴더 입니다.
 
 
 ### 2-2 css
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
->  - **Parameter**: 사용자 email, code 번호
->  - **Async**: false
->  - **사용되는 페이지**: ViewRegister.jsp
+>  - css는 각각의 js파일들이 사용하는 css 파일들을 담고 있는 폴더입니다.
 
-### 2-2-1 styles.css
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
+#### 2-2-1 styles.css
+>  - styles.css는 기본 bootstrap template에서 사용되는 css를 모아놓은 파일입니다.
 
-### 2-2-2 admin.css
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
+#### 2-2-2 admin.css
+>  - admin.css는 admin.js에서 사용되는 css들을 모아 놓은 파일입니다.
 
-
-### 2-2-3 template_admin.css
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
+#### 2-2-3 template_admin.css
+>  - template_admin.css는 admin.js에서 사용되는 css들을 모아 놓은 파일입니다.
 
 
-### 2-2-3 user.css
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
+#### 2-2-4 user.css
+>  - user.css는 admin.js에서 사용되는 css들을 모아 놓은 파일입니다.
 
 
-### 2-2-3 template_admin.css
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
-
-
-
+#### 2-2-5 template_user.css
+>  - template_user.css는 admin.js에서 사용되는 css들을 모아 놓은 파일입니다.
 
 
 ### 2-3 js
->  - admin.js 페이지는 사용자에게 보낸 Email 인증 번호와 사용자가 입력한 번호가 일치하는지를 확인해주는 페이지입니다. Ajax를 통해 사용이 되며 만약 현재 DB에 email_cdoe table에서 사용자의 코드 정보가 일치한다면 sucess를, 그렇지 않다면 Fail을 response로 반환해줍니다.
->  - **Parameter**: 사용자 email, code 번호
->  - **Async**: false
->  - **사용되는 페이지**: ViewRegister.jsp
+>  - js 폴더는 해당 bootstrap template에서 제공하는 javascript 파일을 담고 있는 폴더 입니다.
 
-
-
-### [2-1 assets](#2-1-assets)
-### [2-2 css](#2-2-css)
-[2-2-1 styles.css](#2-2-1-stylescss)     
-[2-2-2 admin.css](#2-2-2-admincss)   
-[2-2-3 template_admin.css](#2-2-3-templateadmincss)   
-[2-2-4 user.css](#2-2-4-usercss)      
-[2-2-5 template_user.css](#2-2-5-templateusercss)     
-### [2-3 js](#2-3-js)
