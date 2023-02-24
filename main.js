@@ -66,10 +66,10 @@ app.post('/teamcc/admin_create/create_state', function(request, response){
    admin.create_state(request,response);
 });
 
-app.post('/teamcc/teamcc/admin_main', function(request, response){
+app.post('/teamcc/admin_main', function(request, response){
     admin.main(request,response);
 });
-app.get('/teamcc/teamcc/admin_main', function(request, response){
+app.get('/teamcc/admin_main', function(request, response){
     admin.main(request,response);
 });
 
