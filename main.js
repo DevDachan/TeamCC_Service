@@ -20,14 +20,6 @@ app.use(session({
   saveUninitialized:true,
 }));
 
-//-------------------------- common - alert ------------------------------------
-app.get('/alert_popup',function(request, response){
-   admin.alert_popup(request, response);
-});
-app.get('/confirm_popup',function(request, response){
-   admin.confirm_popup(request, response);
-})
-
 //-------------------------- admin.js  ------------------------------------
 app.post('/teamcc/', function(request, response){
   var _url = request.url;
