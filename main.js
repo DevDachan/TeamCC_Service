@@ -8,7 +8,7 @@ var user = require('./lib/user.js');
 var session = require('express-session');
 var express = require('express');
 var app = express();
-app.use(express.static('public'));
+app.use('/teamcc', express.static('public'));
 
 var multer = require('multer');
 var storage = multer.memoryStorage();
