@@ -24,17 +24,17 @@ app.use(session({
 app.post('/teamcc/', function(request, response){
   var _url = request.url;
   var queryData = url.parse(_url, true).query;
-  admin.home(request,response,queryData);
+  admin.login(request,response,queryData);
 });
 app.get('/teamcc/', function(request, response){
   var _url = request.url;
   var queryData = url.parse(_url, true).query;
-  admin.home(request,response,queryData);
+  admin.login(request,response,queryData);
 });
 
 
-app.post('/teamcc/admin_login', function(request, response){
-  admin.login(request, response);
+app.post('/teamcc/login_action', function(request, response){
+  admin.login_action(request, response);
 })
 
 
