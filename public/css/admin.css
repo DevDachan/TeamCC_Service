@@ -51,8 +51,8 @@ td{
 .footerCSS{
   width: 100%;
   background-color: black;
-  padding-top:50px;
-  padding-bottom: 50px;
+  padding-top:40px;
+  padding-bottom: 40px;
 }
 .footerTextCSS{
   color: white;
@@ -65,12 +65,14 @@ td{
   z-index: 1;
 }
 .middlePart{
-  margin-bottom: 10vh;
+  padding-top: 50px;
+  margin-bottom: 15vh;
+  padding-bottom: 40px;
 }
 
 .backgroundCSS{
   background: url("../assets/img/background.jpeg");
-  background-size: cover;
+  background-size: 100% 100%;
   height: 100vh;
 }
 .containerCSS{
