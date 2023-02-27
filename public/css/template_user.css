@@ -25,8 +25,15 @@ table{
     padding-bottom: 40px;
     bottom: 0;
 }
+.fixedFooter{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
 #mid_container{
-    margin-bottom: 150px;
+    padding-top: 50px;
+    margin-bottom: 15vh;
+    padding-bottom: 40px;
 }
 body::-webkit-scrollbar{
     display: none;
