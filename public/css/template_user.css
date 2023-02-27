@@ -11,7 +11,7 @@ table{
 
 /* common - main_HTML:function, score_HTML:function */
 .headerCSS{
-    height: 400px; 
+    height: 400px;
 }
 .footerTextCSS{
     color: white;
@@ -23,13 +23,12 @@ table{
     background-color: black;
     padding-top:50px;
     padding-bottom: 40px;
-    position: fixed;
     bottom: 0;
 }
 #mid_container{
     margin-bottom: 150px;
 }
-body::-webkit-scrollbar{ 
+body::-webkit-scrollbar{
     display: none;
 }
 
@@ -62,28 +61,30 @@ body::-webkit-scrollbar{
 }
 .userActivity_td{
     border-bottom: 2px solid black;
-    font-size: 25px; 
+    font-size: 25px;
     font-weight: bold;
 }
 .userActivityTable_css{
     text-align: center;
-    margin: auto; 
+    margin: auto;
     margin-top:50px;
+    width: 80%;
 }
 td{
     padding: 7px;
 }
 
 .deleteBtn{
-    border: 0px; 
-    font-weight: bold; 
-    border-radius: 20px; 
-    width: 80px; 
+    border: 0px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 80px;
     height:30px;
 }
 
 .tdCSS{
     border-bottom: 2px solid lightgrey;
+    word-break:break-all;
 }
 
 /* score_HTML:function */
@@ -100,12 +101,67 @@ td{
     font-size: 20px;
 }
 .mainScreenBtn{
-    background: #B0E0E6; 
-    font-family: 'Jua', sans-serif; 
+    background: #B0E0E6;
+    font-family: 'Jua', sans-serif;
     font-size: 20px;
-    border: 0px; 
-    font-weight: bold; 
-    border-radius: 20px; 
-    width: 200px; 
+    border: 0px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
     height:50px;
+}
+
+
+/* image card css*/
+
+#point_5{
+  color: white;
+  text-align: center;
+  font-size: 2.5vw;
+  align-items: center;
+  margin: 0px;
+  font-family: 'Jua', sans-serif;
+  padding: 10px;
+  word-break:break-all;
+}
+
+
+#td_table{
+  width:30vw;
+  height:30vw;
+  border:0px;
+}
+
+
+#td_background{
+  width:20vw;
+  height:20vw;
+  border-radius:50vw;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+}
+
+
+/* image_HTML:function */
+#captureBtnArea{
+  text-align: center;
+  margin-top: 30px;
+}
+#captureBtn{
+  background-color: rgb(243, 243, 243);
+  font-weight: bold;
+  padding: 20px;
+  border: none;
+  border-radius: 40px;
+  font-size: 25px;
+}
+
+
+#tb_activityImage{
+  margin:auto;
+  border: 0px;
+  border-radius: 10px;
 }
