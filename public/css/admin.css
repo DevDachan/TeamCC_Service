@@ -64,6 +64,9 @@ td{
   bottom: 0;
   z-index: 1;
 }
+.middlePart{
+  margin-bottom: 10vh;
+}
 
 .backgroundCSS{
   background: url("../assets/img/background.jpeg");
