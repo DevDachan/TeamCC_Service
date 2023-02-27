@@ -408,6 +408,12 @@ td{
   }
 }
 
+@media (max-width: 600px) {
+  .mobileTable, .mobileInfoArea{
+    margin-left: -40px;
+  }
+}
+
 .bt-copy{
   border: 0px;
   border-radius: 10px;
