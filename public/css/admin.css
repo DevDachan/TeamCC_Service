@@ -192,6 +192,11 @@ td{
   margin-top: 10px;
 }
 
+.editBtn{
+  background-color: rgb(233, 231, 231);
+  color: black;
+}
+
 #point_5{
   color: white;
   text-align: center;
