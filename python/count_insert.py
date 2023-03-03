@@ -19,6 +19,11 @@ cur = con.cursor()
 while 1:
     time.sleep(3)
 
+    now = datetime.now()
+    cur_year = now.year
+    cur_month = now.month
+    cur_day = now.day
+
     select_sql = "SELECT * FROM count WHERE year='"+str(now.year)+"' AND month = '"+str(now.month) +"' AND day ='"+str(now.day)+"'"
 
     print(select_sql)
