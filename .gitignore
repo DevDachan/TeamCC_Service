@@ -3,4 +3,4 @@
 
 nohup.out
 
-db.js
+lib/db.js
