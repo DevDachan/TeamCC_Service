@@ -7,6 +7,7 @@ use team_cc;
 CREATE TABLE `activity` (
   `id` int NOT NULL,
   `admin_id` varchar(255) NOT NULL,
+  `activity_num` varchar(255) DEFAULT NULL,
   `activity` varchar(255) DEFAULT NULL,
   `score` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`,`admin_id`)
@@ -22,6 +23,7 @@ CREATE TABLE `cc` (
   `admin_id` varchar(255) NOT NULL,
   `team_num` int NOT NULL,
   `activity_id` int NOT NULL,
+  `activity_index` int NOT NULL,
   `image` mediumblob,
   `size` int DEFAULT NULL,
   `mimetype` varchar(50) DEFAULT NULL,
