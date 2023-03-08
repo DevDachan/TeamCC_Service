@@ -93,6 +93,10 @@ td{
     border-bottom: 2px solid lightgrey;
     word-break:break-all;
 }
+.tdCSS_snd{
+    border-bottom: 0px solid;
+    word-break:break-all;
+}
 
 /* score_HTML:function */
 .top{
