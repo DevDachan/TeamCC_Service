@@ -27,7 +27,7 @@ CREATE TABLE `cc` (
   `image` mediumblob,
   `size` int DEFAULT NULL,
   `mimetype` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`admin_id`,`team_num`,`activity_id`)
+  PRIMARY KEY (`admin_id`,`team_num`,`activity_id`,`activity_index`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE `color` (
