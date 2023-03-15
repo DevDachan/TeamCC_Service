@@ -417,6 +417,9 @@ td{
   .mobileTable, .mobileInfoArea{
     margin-left: -40px;
   }
+  .mobileTableActivity{
+    margin-left: -60px;
+  }
 }
 
 .bt-copy{
