@@ -5,11 +5,11 @@
 
 html{
   background-color: white;
-  min-height: 100vw;
+  min-height: 100vh;
 }
 
 .fixedHeader{
-  min-height: 100vw;
+  min-height: 100vh;
 }
 
 #inputCSS{
