@@ -32,6 +32,13 @@ app.get('/teamcc/', function(request, response){
   admin.login(request,response,queryData);
 });
 
+app.get('/teamcc/developer', function(request, response){
+   admin.developer(request, response);
+ })
+app.post('/teamcc/developer', function(request, response){
+   admin.developer(request, response);
+})
+
 
 app.post('/teamcc/login_action', function(request, response){
   admin.login_action(request, response);
