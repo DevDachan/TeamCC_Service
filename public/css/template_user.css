@@ -184,3 +184,8 @@ td{
   width:80px;
   margin:auto;
 }
+
+
+#page-top{
+  min-width: 600px;
+}
