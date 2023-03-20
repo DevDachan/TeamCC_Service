@@ -11333,7 +11333,7 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: 40vh;
+  padding-top: 20vh;
   padding-bottom: 7rem;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11384,7 +11384,7 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 40vh;
+    padding-top: 20vh;
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
