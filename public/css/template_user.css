@@ -2,7 +2,9 @@
     template_user.css File : template_user.js File's CSS
     (Modified on 2023.01.06)
 */
-
+html{
+  background-color: white;
+}
 /* common */
 table{
     text-align: center;
@@ -26,7 +28,7 @@ table{
     bottom: 0;
 }
 .fixedFooter{
-    position: fixed;
+
     bottom: 0;
     z-index: 1;
   }

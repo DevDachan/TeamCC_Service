@@ -3,6 +3,10 @@
     (Modified on 2023.01.05)
 */
 
+html{
+  background-color: white;
+}
+
 #inputCSS{
   width: 100%;
   height: 38px;
@@ -60,7 +64,6 @@ td{
   font-size: 18px;
 }
 .fixedFooter{
-  position: fixed;
   bottom: 0;
   z-index: 1;
 }
@@ -73,7 +76,6 @@ td{
 .backgroundCSS{
   background: url("../assets/img/background.jpeg");
   background-size: 100% 100%;
-  height: 200vh;
 }
 .containerCSS{
   margin-top: 5vh;
