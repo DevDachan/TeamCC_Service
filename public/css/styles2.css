@@ -11302,7 +11302,7 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #2a5555;
+  /* background-color: #2a5555; */
   opacity: 0.7;
   z-index: 1;
 }
@@ -11321,7 +11321,7 @@ video.bg-video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../assets/img/bg-mobile-fallback.jpg") #2a5555 no-repeat center center scroll;
+    background: url("../assets/img/background.jpeg") no-repeat center center scroll;
     background-size: cover;
   }
 
