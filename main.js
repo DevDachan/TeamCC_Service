@@ -20,6 +20,25 @@ app.use(session({
   saveUninitialized:true,
 }));
 
+// --------- developer ---------
+app.get('/teamcc/developer', function(request, response){
+   admin.developer(request, response);
+ })
+app.post('/teamcc/developer', function(request, response){
+   admin.developer(request, response);
+})
+
+app.post('/teamcc/developer/login_action', function(request, response){
+   admin.developerLogin_action(request, response);
+})
+
+app.post('/teamcc/developer/admin_main', function(request, response){
+   admin.developer_main(request,response);
+});
+app.get('/teamcc/developer/admin_main', function(request, response){
+   admin.developer_main(request,response);
+});
+
 //-------------------------- admin.js  ------------------------------------
 app.post('/teamcc/', function(request, response){
   var _url = request.url;
@@ -32,18 +51,9 @@ app.get('/teamcc/', function(request, response){
   admin.login(request,response,queryData);
 });
 
-app.get('/teamcc/developer', function(request, response){
-   admin.developer(request, response);
- })
-app.post('/teamcc/developer', function(request, response){
-   admin.developer(request, response);
-})
-
-
 app.post('/teamcc/login_action', function(request, response){
   admin.login_action(request, response);
 })
-
 
 app.get('/teamcc/admin_register',function(request, response){
   admin.register(request, response);
