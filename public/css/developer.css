@@ -1,0 +1,21 @@
+.infoBlank{
+    display: inline;
+    border: none;
+    border-radius: 10px;
+    height: 46px;
+    width: 220px;
+    border-radius: 5px;
+}
+#lb_ID, #lb_PWD{
+    font-size: 28px;
+}
+#bt_login{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#logoTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
