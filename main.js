@@ -52,6 +52,15 @@ app.get('/teamcc/', function(request, response){
   admin.login(request,response,queryData);
 });
 
+app.post('/teamcc/team_user', function(request, response){
+  admin.image_gallery(request, response);
+});
+app.get('/teamcc/team_user', function(request, response){
+  admin.image_gallery(request, response);
+});
+
+
+
 app.post('/teamcc/login_action', function(request, response){
   admin.login_action(request, response);
 })
