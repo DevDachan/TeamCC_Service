@@ -19,6 +19,12 @@
     .navbarRight{ /* mobile 버전일 때 상단 팀cc title만 보이게 */
         display: none;
     }
+    #logoTitle{
+        font-size: 25px !important;
+    }
+    .dashboardText{
+        font-size: 20px !important;
+    }
 }
 
 #logoTitle{
