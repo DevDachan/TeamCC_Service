@@ -52,11 +52,9 @@ app.get('/teamcc/', function(request, response){
   admin.login(request,response,queryData);
 });
 
-
 app.post('/teamcc/login_action', function(request, response){
   admin.login_action(request, response);
 })
-
 
 app.get('/teamcc/admin_register',function(request, response){
   admin.register(request, response);
