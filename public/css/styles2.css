@@ -11319,7 +11319,7 @@ video.bg-video {
   z-index: 0;
 }
 
-@media (pointer: coarse) and (hover: none) {
+/* @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../assets/img/background.jpeg") no-repeat center center scroll;
     background-size: cover;
@@ -11328,7 +11328,7 @@ video.bg-video {
   body video {
     display: none;
   }
-}
+} */
 .masthead {
   position: relative;
   overflow: hidden;
@@ -11375,6 +11375,31 @@ video.bg-video {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: calc(1rem + 2px);
+}
+
+@media (min-width: 320px) { /* mobile */
+  .masthead {
+    height: 100%;
+    width: 90vw;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  .masthead:before {
+    transform: skewX(-9deg);
+    transform-origin: top right;
+  }
+  .masthead .masthead-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 6rem;
+    padding-right: 10rem;
+  }
+  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
+    font-size: 3.5rem;
+  }
+  .masthead .masthead-content p {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 992px) {
