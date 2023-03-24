@@ -506,3 +506,14 @@ td{
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
+
+
+.main-grid-user{
+  display:grid;
+  margin-bottom:10px;
+  grid-template-rows: 50px 50px;
+  grid-template-columns:2fr 1fr 0.5fr;
+  place-items:centers;
+  min-width: 33vw;
+}
