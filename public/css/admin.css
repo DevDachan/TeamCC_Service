@@ -461,3 +461,48 @@ td{
   padding-bottom: 10px;
   text-align: center;
 }
+
+
+.bt-usertable{
+  background-color: #6281D7;
+  border-radius: 20px;
+  vertical-align: middle;
+  box-shadow: 3px 3px 5px grey;
+  border:none;
+  height:40px;
+  width:200px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1px 6px;
+}
+
+.a-usertable{
+  background-color: #f8caca;
+  border-radius: 20px;
+  vertical-align: middle;
+  box-shadow: 3px 3px 5px grey;
+  border:none;
+  height:40px;
+  width:200px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  margin-right: 20px;
+  margin: auto;
+}
+
+.main-gallery-div{
+  text-align: center;
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+
+.gallery-img{
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

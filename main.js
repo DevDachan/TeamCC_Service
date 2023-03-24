@@ -52,10 +52,10 @@ app.get('/teamcc/', function(request, response){
   admin.login(request,response,queryData);
 });
 
-app.post('/teamcc/team_user', function(request, response){
+app.post('/teamcc/team_gallery', function(request, response){
   admin.image_gallery(request, response);
 });
-app.get('/teamcc/team_user', function(request, response){
+app.get('/teamcc/team_gallery', function(request, response){
   admin.image_gallery(request, response);
 });
 
