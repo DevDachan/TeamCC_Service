@@ -49,19 +49,6 @@
 
 
 
-## :blue_heart:  기존 문제점
-- TEAM CC활동을 하면서 기존에는 단순히 카카오톡을 통해 팀장이 각 팀원들의 짝을 정해주고 수행하는 활동에 
-대한 내용들을 개인적으로 수집해 점수를 집계했다.
-
-- 기존의 방식대로 활동을 진행하면 중간중간 사진을 보내는 경우 팀장이 한번에 사진을 분류해 점수를 내기가 
-복잡하고 팀원들 또한 혼란이 올 수 있다.
-
-- 또한 각 팀원들이 점수를 집계하는 것도 하나하나 체크해가며 활동을 하기에 수행함에 있어서 목표 성취감이
-크게 와 닿지 않을 수 있다.
-
-
-</br>
-
 ## :heart: WEB 소개
 
 
@@ -76,6 +63,18 @@
 - 전체 Web은 PC에서도 접속이 가능하지만 모바일에서 접속이 가능하도록 UI들을 구성했습니다.
 
 
+## :blue_heart:  기존 문제점(요구 사항)
+- TEAM CC활동을 하면서 기존에는 단순히 카카오톡을 통해 팀장이 각 팀원들의 짝을 정해주고 수행하는 활동에 
+대한 내용들을 개인적으로 수집해 점수를 집계했다.
+
+- 기존의 방식대로 활동을 진행하면 중간중간 사진을 보내는 경우 팀장이 한번에 사진을 분류해 점수를 내기가 
+복잡하고 팀원들 또한 혼란이 올 수 있다.
+
+- 또한 각 팀원들이 점수를 집계하는 것도 하나하나 체크해가며 활동을 하기에 수행함에 있어서 목표 성취감이
+크게 와 닿지 않을 수 있다.
+
+
+</br>
 
 
 ## :yellow_heart: 기능 구현
@@ -110,6 +109,8 @@ db.query(`SELECT * FROM url WHERE url=?`,[rand_url],function(error,admin_id){
 ```
 
 ### 2. 카카오톡 공유하기
+<img src="https://user-images.githubusercontent.com/111109411/230572601-5d321ed9-f483-4e07-9b5c-2fb2aa427bbc.png" width=50%>
+
 
 > * **카카오톡 공유하기의 경우에는 카카오톡측에서 제공하는 Open API를 사용했습니다.**
 > * **카카오톡 공유하기 기능을 사용하기 위해서는 [kakao developers](https://developers.kakao.com/)에 해당 애플리케이션을 등록해야 사용이 가능합니다.**
@@ -151,7 +152,52 @@ db.query(`SELECT * FROM url WHERE url=?`,[rand_url],function(error,admin_id){
          <img src="https://ifh.cc/g/BbQVhq.png" onClick="kakaoShare('${url[i].url}');" width="50" alt="Share" class="btnImg">
 ```
 
+### 3. 이미지 미리보기  
 
+<img src="https://user-images.githubusercontent.com/111109411/230571595-2cf1b1d0-6ed5-484d-bf45-d4ee27ff7545.png" width = 50%>
+
+
+> * **팀원 페이지에서 각 이미지를 업로드 한 이후 단순히 작은 사이즈가 아니라 원본 크기로 크게 볼 수 있게 미리보기 기능을 모달을 사용해 구현했습니다.**   
+> * **각 이미지에 onClick 이벤트를 넣어 이벤트가 발생하면 해당 이미지의 id와 name을 통해서 어떤 이미지인지를 확인하고 modal 내에 있는 img 태그에 src값을 넣어주도록 만들었습니다.**      
+
+
+#### img tag 
+
+```
+ <img id="img_${activitycc[activitycc_temp].activity_id}_${activitycc[activitycc_temp].activity_index}" src="data:${activitycc[activitycc_temp].mimetype};base64,${activitycc[activitycc_temp].image}" width=150vw height=auto onclick="modal(${activitycc[activitycc_temp].activity_id},${activitycc[activitycc_temp].activity_index})"/>
+```
+
+#### java script   
+```
+<script>
+    function modal(img,index){
+       var img_tag = 'img_'+ img + '_'+index;
+       document.getElementById('modal_img').src = document.getElementById(img_tag).src;
+       document.getElementById('modal_bt').click();
+    }
+</script>
+```
+
+#### modal   
+```
+ <!-- Modal -->
+          <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLabel">미리 보기</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <img id="modal_img" style="width:100%;" />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+```
 
 
 
@@ -183,3 +229,23 @@ db.query(`SELECT * FROM url WHERE url=?`,[rand_url],function(error,admin_id){
 
 #### 👀 결론 
 - 서버측 File System에 이미지 파일을 직접 저장을 하고 저장된 path를 DB측에 저장시켜놓는 방법을 사용해야 한다는 결론에 도달했습니다.    
+
+
+
+### 2. 세션 정보 오류
+
+- 어떻게 보면 가장 기본적인 오류인데 서버측에서 세션 정보에 대해 확인하는 과정에서 조건문을 잘못처리해 세션 정보가 없을 경우 가끔 505 Error가 뜨는 경우가 생겼었습니다.
+   
+```
+ if(request.session.uid === undefined)
+```
+
+- 위와 같이 undefined라고만 처리를 했었는데 undefined가 아닌 null값이 반환될 때도 있었습니다.
+- 이후 아래와 같이 상황에 따라 모두 처리가 가능하도록 변경했습니다.
+   
+```
+  if(request.session.uid === undefined || request.session.uid === null)
+```
+
+
+
