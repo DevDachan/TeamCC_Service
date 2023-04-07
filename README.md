@@ -16,6 +16,10 @@
 ### 2022.08~2023.03
 ### 배포 기간: 2023.03.05~2023.03.27
 
+**총 사용: 9262 / 이미지 수 : 1204개**   
+<img src="https://user-images.githubusercontent.com/111109411/230569775-dec0e0ba-a79d-4c84-9ac3-c060c507dba4.png" width=50% />
+
+
 
 ## Contributors
 
@@ -160,7 +164,7 @@ db.query(`SELECT * FROM url WHERE url=?`,[rand_url],function(error,admin_id){
 
 
 
-## 트러블 슈팅
+## 🔨 트러블 슈팅
 
 ### 1. 이미지 로딩 이슈
 
