@@ -36,6 +36,7 @@ table{
     padding-top: 50px;
     margin-bottom: 1vh;
     padding-bottom: 40px;
+    min-height: 100vh;
 }
 body::-webkit-scrollbar{
     display: none;
