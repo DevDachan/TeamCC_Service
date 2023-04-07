@@ -95,17 +95,15 @@
 
 #### 이미지 업로드 query   
 > * **이미지를 업로드 할 때는 blob 형식의 image data를 base64 형식으로 변환한 뒤 INSERT해줘야 합니다. 이때 DB table에서는 BLOB 형식으로 입력을 받습니다.**   
-<br/>   
+<br/>     
+
 > 이미지를 base64 형태로 직접 저장한 이유는 이후 이미지를 웹 서비스측에 출력함에 있어 더 간편하게 나타내기 위함입니다. base64형태로 DB에 이미지를 저장할 경우에는 별도의 파일이 없이 이미지를 출력하는 것이 가능해집니다.
 
 ```
 const base64image = Buffer.from(request.file.buffer).toString('base64');
-
-db.query(`SELECT * FROM url WHERE url=?`,[rand_url],function(error,admin_id){
-        if(error){
-          throw error;
-        }
-        db.query(`INSERT INTO cc VALUE('${admin_id[0].admin_id}','${request.body.team_num}','${request.body.actid}','${base64image}','${request.file.size}','${request.file.mimetype}')`, function(error1,cc){}
+...
+db.query(`INSERT INTO cc VALUE('${admin_id[0].admin_id}','${request.body.team_num}','${request.body.actid}','${base64image}','${request.file.size}','${request.file.mimetype}')`)
+	
 ```
 
 ### 2. 카카오톡 공유하기
