@@ -13,22 +13,17 @@
 <br/>
   
 ## :calendar: 프로젝트 기간
-### 2022.08~2023.03
-### 배포 기간: 2023.03.05~2023.03.27
+### 개발 기간: 2022.08~2023.03    
+### 배포 기간: 2023.03.05~2023.03.27   
 
 **총 사용: 9262 / 이미지 수 : 1204개**   
 <img src="https://user-images.githubusercontent.com/111109411/230569775-dec0e0ba-a79d-4c84-9ac3-c060c507dba4.png" width=50% />
 
+## :runner: 개발 인원
+### 풀 스택 개발 2인
 
 
-## Contributors
 
-<a href="https://github.com/DevDachan/NodeJS-TeamCCService/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DevDachan/NodeJS-TeamCCService" />
-</a>
-
-<br/>
-  
 
 <br/>
   
@@ -210,9 +205,9 @@ db.query(`INSERT INTO cc VALUE('${admin_id[0].admin_id}','${request.body.team_nu
 
 ## 🔨 트러블 슈팅
 
-### 1. 이미지 로딩 이슈
+### 1. 이미지 렌더링 이슈
 
-- 처음 이미지를 서버측에 저장하는 방법에 있어서 단순히 Blob 형태의 데이터로 DB에 저장하는 방식을 선택했었습니다. 하지만 서비스에서 사용하는 이미지의 수가 많아짐에 따라서 다수의 이미지를 화면에 출력할 시 해당 이미지들이 모두 Blob형태의 데이터로 클라이언트측으로 전달이 되기 때문에 로딩 시간이 오래걸리게 됐습니다.
+- 처음 이미지를 서버측에 저장하는 방법에 있어서 단순히 Blob 형태의 데이터로 DB에 저장하는 방식을 선택했었습니다. 하지만 서비스에서 사용하는 이미지의 수가 많아짐에 따라서 다수의 이미지를 화면에 출력할 시 해당 이미지들이 모두 Blob형태의 데이터로 클라이언트측으로 전달이 되기 때문에 렌더링 시간이 오래 걸리게 됐습니다.
 
 #### DB 저장   
 - ***DB 용량 증가:*** 이미지 파일은 일반적으로 큰 파일이기 때문에 Blob 형식으로 저장할 경우 DB 용량이 증가할 수 있습니다. 이는 DB 백업 및 복구 시에도 문제를 일으킬 수 있습니다.   
@@ -245,5 +240,12 @@ db.query(`INSERT INTO cc VALUE('${admin_id[0].admin_id}','${request.body.team_nu
   if(request.session.uid === undefined || request.session.uid === null)
 ```
 
+## Contributors
 
+<a href="https://github.com/DevDachan/NodeJS-TeamCCService/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DevDachan/NodeJS-TeamCCService" />
+</a>
+
+<br/>
+  
 
