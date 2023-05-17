@@ -248,4 +248,9 @@ db.query(`INSERT INTO cc VALUE('${admin_id[0].admin_id}','${request.body.team_nu
 
 <br/>
   
-
+## 로드맵     
+[v2.0]   
+- 활동 표에서 드래그하여 활동 순서 변경 가능하도록      
+- 활동 인증 시 위치 기반 api 사용         
+- 테이블 형식 UI 변경하기      
+- SpringBoot, AWS, Kotlin
