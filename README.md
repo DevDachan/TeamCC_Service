@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=NodeJS-TeamCC&fontSize=70" width=100% />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=TeamCC&fontSize=70" width=100% />
 
 
 <div align='center'>
